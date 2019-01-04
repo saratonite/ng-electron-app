@@ -1,0 +1,22 @@
+.page-navigation {
+    position: absolute;
+    top: 46%;
+    left: 15%;
+    list-style: none;
+    z-index: 999;
+
+    li {
+        background-color: #4CAF50;
+
+        margin-top: 5px;
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 5px;
+            width: 100%;
+            color: #dddddd;
+            font-weight: 400;
+        }
+    }
+}

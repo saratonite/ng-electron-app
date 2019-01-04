@@ -1,0 +1,12 @@
+<!-- <app-ghprofile username="sarath-eglobeits"></app-ghprofile> -->
+
+<div>
+
+    <app-page-navigation></app-page-navigation>
+    
+
+    <main [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''">
+
+        <router-outlet #o="outlet"></router-outlet>
+    </main>
+</div>

@@ -4,13 +4,13 @@
   "main": "main.js",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --watch",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "install-electron:linux": " sudo npm i -D electron@latest --unsafe-perm=true --allow-root",
-    "electron": "electron ."
+    "electron": "ng build && electron ."
   },
   "private": true,
   "dependencies": {

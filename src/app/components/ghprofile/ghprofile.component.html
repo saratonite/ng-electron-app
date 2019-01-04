@@ -1,0 +1,12 @@
+<div>
+  Github user name : {{ username || 'No user name provided!'}} 
+  <div *ngIf="user">
+    <h2>{{ user.name }}</h2>
+    <img class="avatar" [src]="user.avatar_url" />
+  </div>
+  <input type="text" [(ngModel)]="username" />
+
+  <div>
+    <button (click)="fetchProfile()">Fetch data</button>
+  </div>
+</div>
