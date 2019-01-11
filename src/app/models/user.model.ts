@@ -1,8 +1,8 @@
 export class User {
 
 
-    name: string;
-    age:number = 0;
+    last_name: string;
+    first_name: string;
 
 
 }

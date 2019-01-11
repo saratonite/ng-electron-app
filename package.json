@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "install-electron:linux": " sudo npm i -D electron@latest --unsafe-perm=true --allow-root",
-    "electron": "ng build && electron ."
+    "electron": "ng build && electron .",
+    "dev:install-electron": "npm install electron --unsafe-perm=true"
   },
   "private": true,
   "dependencies": {
